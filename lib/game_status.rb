@@ -37,6 +37,15 @@ end
   def over?(board)   
     won?(board) || draw?(board) 
   end
+  
+  
+  def winner(board)
+    if "X" won?(board) 
+      return "X"
+    else 
+      return "O"
+    end
+  end
 
      
  
