@@ -20,7 +20,6 @@ WIN_COMBINATIONS = [
       return combination
     end
   end
-else
   return false
 end 
  
