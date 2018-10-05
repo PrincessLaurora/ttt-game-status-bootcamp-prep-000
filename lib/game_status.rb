@@ -25,6 +25,7 @@ end
  
  def full?(board)
    bord.all? do |position|
+     position == "X" || position == "O"
    end
  end
   
