@@ -40,7 +40,7 @@ end
   
   
   def winner(board)
-    if won?(board) && position_taken?
+    if won?(board) && position_taken?(board, combination[0])
       return "X"
     elsif 
      return "O" 
