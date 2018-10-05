@@ -43,10 +43,9 @@ end
     if "X" won?(board) 
       return "X"
     else 
-      return "O"
+      "O"
     end
   end
-end
   
 
      
