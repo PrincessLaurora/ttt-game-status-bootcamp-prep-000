@@ -40,10 +40,10 @@ end
   
   
   def winner(board)
-    if "X" won?(board) 
+    if "X" == won?(board) 
       return "X"
     else 
-      "O"
+      return "O"
     end
   end
   
