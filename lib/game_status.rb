@@ -40,14 +40,8 @@ end
   
   
   def winner(board)
-    if won?(board) && position_taken?(board, combination[0])
-      return "X"
-    elsif 
-     return "O" 
-else
-  return nil
-    end
-  end
+    if 
+  
   
 
      
