@@ -18,12 +18,10 @@ WIN_COMBINATIONS = [
     WIN_COMBINATIONS.each do |combination|
      if (board[combination[0]]==board[combination[1]] && board[combination[1]]==board[combination[2]])&& position_taken?(board[combination[0])
       return combination
-    end
-  end
 else
   return false
 end 
  end
- 
+ end
  
         
