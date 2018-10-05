@@ -24,6 +24,6 @@ end
 end 
  
  def full?(board)
-   bord.all?
+   bord.all? do |
 
         
